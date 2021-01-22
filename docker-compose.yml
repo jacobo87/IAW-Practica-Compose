@@ -3,7 +3,7 @@ services:
     phpmyadmin:
         image: phpmyadmin
         environment:
-            - PMA_ARBITRARY=1
+            - PMA_HOST=mysql
         ports:
             - 8080:80
         networks:
