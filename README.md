@@ -3,9 +3,12 @@
 >Módulo: IAW - Implantación de Aplicaciones Web   
 >Ciclo: CFGS Administración de Sistemas Informáticos en Red 
 
-# Instalación de WordPress usando contenedores Docker y Docker Compose
+## Contenido
+Realizar la implantación de un sitio WordPress en Amazon Web Services (AWS) haciendo uso de contenedores Docker y la herramienta Docker Compose.
 
-tareas que tendrá que realizar.
+## Instalación de WordPress usando contenedores Docker y Docker Compose
+
+Tareas que tendrá que realizar:
 
 - Crear una máquina virtual [Amazon EC2](https://aws.amazon.com/es/ "Amazon EC2").
 
@@ -15,10 +18,9 @@ tareas que tendrá que realizar.
 
 - Buscar cuál es la **dirección IP pública** de su instancia en **AWS** y comprobar que puede acceder a los servicios de **WordPress** y **phpMyAdmin** desde una navegador web.
 
-# Contenido
-Realizar la implantación de un sitio WordPress en Amazon Web Services (AWS) haciendo uso de contenedores Docker y la herramienta Docker Compose.
+------------
 
-Los servicios definidos en el archivo docker-compose.yml deberán usar dos redes:
+Los servicios definidos en el archivo `docker-compose.yml` deberán usar dos redes:
 - frontend-network
 - backend-network
 
